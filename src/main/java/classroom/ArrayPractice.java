@@ -48,7 +48,7 @@ public class ArrayPractice {
         stringBuilder.append(" Fedosejeva");
         System.out.println(stringBuilder);
 
-// Check
+// Check velak
         List<String> listOfFruit = new ArrayList<>();  //List - pienem tikai String vertibas
 //        listOfFruit.add(String.valueOf(1));  //"1"
         System.out.println("123");
