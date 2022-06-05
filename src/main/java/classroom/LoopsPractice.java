@@ -117,7 +117,6 @@ public class LoopsPractice {
 
 
         // create int[] array with numbers from 0 to 100. Print numbers, that are > 50
-
         int[] numArray = new int[101];  //tiek izveidots tuks masivs, kuram ieksa var ielikt 100 vietas cipariem
         for (int y = 0; y < numArray.length; y++) {  //cikls, lai tuksas ailites aizpilditu
             numArray[y] = y;
@@ -126,8 +125,8 @@ public class LoopsPractice {
 //        System.out.println(Arrays.toString(numArray)); //lai parbauditu, ka masivs ir piepildits
 
 //        for (int j = 0; j < numArray.length; j++) {
-//            int i = numArray[j];
-//            if (i >= 50) {
+//            int j = numArray[j];
+//            if (j >= 50) {
 //                System.out.print(i + ", ");
 //            }
 //        }
