@@ -16,7 +16,8 @@ public class LoopHomeWork {
             Scanner scanner = new Scanner(System.in);
             input = scanner.nextInt();
             sum = sum + input;
-        };
+        }
+        ;
         System.out.println("Ready. Entered numbers' sum > 100");
 
 
@@ -28,17 +29,17 @@ public class LoopHomeWork {
         if (input2 <= 1) {
             System.out.println("NOT prime number");
         } else {
-                for (divider = 2; divider <= input2; divider++) {
-                    if (input2 % divider == 0) {
-                        break;
-                    }
-                }
-                if (divider == input2) {
-                    System.out.println("PRIME number");
-                } else {
-                    System.out.println("NOT prime number");
+            for (divider = 2; divider <= input2; divider++) {
+                if (input2 % divider == 0) {
+                    break;
                 }
             }
+            if (divider == input2) {
+                System.out.println("PRIME number");
+            } else {
+                System.out.println("NOT prime number");
+            }
+        }
 
 
 // 3.uzd: Definēt 3 masīvus ar datu tipiem: int, String, char un jāizvada uz ekrāna visas vērtības izmantojot: (a) while; (b) do while; (c)	for loop; (d)for each.
@@ -71,7 +72,7 @@ public class LoopHomeWork {
 
 // String masīvs:
         String[] names = {"Cat", "Dog", "Snake", "Tiger", "Mouse"};
- // while:
+        // while:
         number = 0;
         while (number < names.length) {
             System.out.println(names[number]);
@@ -92,7 +93,7 @@ public class LoopHomeWork {
 
 // for each:
         for (String animalName : names
-             ) {
+        ) {
             System.out.println(animalName);
         }
 
@@ -113,13 +114,13 @@ public class LoopHomeWork {
         } while (number < partOfAlphabet.length);
 
 // for:
-        for ( number = 0;  number < partOfAlphabet.length ; number++) {
+        for (number = 0; number < partOfAlphabet.length; number++) {
             System.out.println(partOfAlphabet[number]);
         }
 
 // for each:
         for (char letter : partOfAlphabet
-             ) {
+        ) {
             System.out.println(letter);
         }
 
@@ -130,11 +131,11 @@ public class LoopHomeWork {
 
         int m = 0;
         for (m = 0; m < numArrayEven.length; m++) {
-                numArrayEven[m] = 2*(m+1);
+            numArrayEven[m] = 2 * (m + 1);
         }
 
         for (int num : numArrayEven
-             ) {
+        ) {
             System.out.print(num + ", ");
         }
 
@@ -197,10 +198,10 @@ public class LoopHomeWork {
                 Scanner secretNumber = new Scanner(System.in);
                 y = secretNumber.nextInt();
             }
-                if (y == x) {
+            if (y == x) {
                 System.out.println("Correct! Secret number is " + x + " Guess times: " + (i + 1));
                 break;
-                } else {
+            } else {
                 if (y > x) {
                     System.out.println("Your number is bigger as Secret number");
                 } else {
