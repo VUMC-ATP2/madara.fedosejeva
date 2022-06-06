@@ -187,7 +187,7 @@ public class LoopHomeWork {
 //        System.out.println("Secret number: " + x);  // for testing
 
         int y = 0; // user entered number
-        int n = 0; // minejumu skaits
+        int n = 0; // guess times
 
         for (n = 0; n <= 10; n++) {
             if (n == 10) {
