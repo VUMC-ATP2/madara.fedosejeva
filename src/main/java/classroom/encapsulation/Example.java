@@ -32,12 +32,5 @@ public class Example {
         zanna.setGraduationYear(2020);
         System.out.println(zanna.getGraduationYear());
 
-
-        //builder izmantosana:
-//        Student anna = Student.builder().
-
-
-
-
     }
 }

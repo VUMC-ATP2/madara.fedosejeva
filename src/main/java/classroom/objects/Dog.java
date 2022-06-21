@@ -1,4 +1,6 @@
-package classroom;
+package classroom.objects;
+
+import classroom.objects.Animal;
 
 public class Dog extends Animal {  //Dog  - subclass, Animal - parent class
 

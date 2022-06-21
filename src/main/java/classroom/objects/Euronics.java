@@ -1,4 +1,6 @@
-package classroom;
+package classroom.objects;
+
+import classroom.objects.Shop;
 
 public class Euronics extends Shop {
 

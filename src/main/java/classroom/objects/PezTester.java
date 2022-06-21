@@ -1,4 +1,6 @@
-package classroom;
+package classroom.objects;
+
+import classroom.objects.PezDispenser;
 
 public class PezTester {
     public static void main(String[] args) {

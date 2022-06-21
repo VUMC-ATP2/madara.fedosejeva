@@ -1,4 +1,4 @@
-package classroom;
+package classroom.objects;
 
 public class Cars {  // klase ir templeits, sablons nakotnes OBJEKTAM
 

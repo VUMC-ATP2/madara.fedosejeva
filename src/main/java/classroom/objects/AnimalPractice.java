@@ -1,4 +1,4 @@
-package classroom;
+package classroom.objects;
 
 public class AnimalPractice {
     public static void main(String[] args) {
